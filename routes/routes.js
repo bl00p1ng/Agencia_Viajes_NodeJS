@@ -12,8 +12,5 @@ router.get('/nosotros', (req, res) => {
         travels
     })
 })
-router.get('/contacto', (req, res) => {
-    res.send('Contacto')
-})
 
 export default router
