@@ -16,6 +16,9 @@ app.set('view engine', 'pug')
 const year = new Date()
 app.locals.currentYear = year.getFullYear()
 
+// Guardar nombre del website
+app.locals.siteName = 'Agencia de Viajes'
+
 // Definir la carpeta pública
 app.use(express.static('public'))
 
