@@ -3,4 +3,27 @@ extends ./layout/index
 block content
     main.container.mt-5
         .row
-            h1 #{page}
+            .col-md-5
+                img.img-fluid(src="img/nosotros.jpg", alt="Imagen de la página de nosotros")
+            .col-md-7
+                h1 #{page}
+                blockquote Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptates, nostrum similique modi amet nulla illo veniam blanditiis, eveniet libero quo doloremque odit? Inventore non ut dolor possimus dolorum atque.
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nesciunt et delectus ut blanditiis officiis suscipit dolor dolorem ab debitis quo, assumenda animi error consequatur! Atque necessitatibus harum obcaecati deserunt!
+                p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi voluptatem at deserunt porro excepturi! Minus ducimus temporibus sint, quaerat reiciendis sunt ipsa, impedit voluptate a eligendi laboriosam! Assumenda, cupiditate ad?
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img.img-fliud(src="img/icono_seguridad.svg", alt="Icono seguridad")
+                    h1.mb-4 Seguridad
+                    p Minus ducimus temporibus sint, quaerat reiciendis sunt ipsa, impedit voluptate a eligendi laboriosam! Assumenda, cupiditate ad
+
+                .col-md-4
+                    img.img-fliud(src="img/icono_destinos.svg", alt="Icono seguridad")
+                    h1.mb-4 Mejores Destinos
+                    p Minus ducimus temporibus sint, quaerat reiciendis sunt ipsa, impedit voluptate a eligendi laboriosam! Assumenda, cupiditate ad
+
+                .col-md-4
+                    img.img-fliud(src="img/icono_precios.svg", alt="Icono seguridad")
+                    h1.mb-4 Los mejores Precios
+                    p Minus ducimus temporibus sint, quaerat reiciendis sunt ipsa, impedit voluptate a eligendi laboriosam! Assumenda, cupiditate ad
