@@ -1,13 +1,13 @@
 import express from 'express'
+import router from './routes/routes.js'
 
 const app = express()
 
 // Definir puerto
 const port = process.env.PORT || 4000
 
-app.get('/', (req, res) => {
-    res.send('Inicio')
-})
+// Agregar router
+app.use('/', router)
 
 // Arrancar el servidor
 app.listen(port, () => {
